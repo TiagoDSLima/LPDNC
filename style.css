@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter";
+}
+
+#logo {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-menusuperior{
+    margin-left: 150px;
+    margin-top: 75px;
+}
+
+#texto-menusuperior{
+    margin-left: 150px;
+    margin-top: 25px;
+    padding-bottom: 100px;
+}
+
+#menusuperior{
+    background-image: url(./imagens/fundo-menusuperior.svg);
+    color: #ffffff;
+}
+
+#menuinformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 50px 0px 50px 100px
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulovideo{
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulocarrossel{
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-cards{
+    margin-top: 25px; 
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 100px;
+}
+
+#setaesquerda{
+    display: none;
+}
+
+#Bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 35%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+}
+
+#formulario{
+    text-align: center;
+}
+
+#tituloformulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838
+}
+
+input{
+    width: 413px;
+    height: 53px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    width: 335px;
+    height: 53px;
+    background-color: #247BA0;
+    color: #EAECE5;
+    border-radius: 8px;
+    border: 0px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+button:hover{
+    background-color: #3e94b9;
+    color: #ffffff;
+    transform: scale(1.1);
+}
